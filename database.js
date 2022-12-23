@@ -5,12 +5,12 @@ let connection;
 const connect = async () => {
   if (!connection) {
     connection = await mysql.createPool({
-      host: 'remotemysql.com',
-      user: 'QvfWf08ncx',
-      password: 'qK2mmsJrEU',
-      database: 'QvfWf08ncx',
+      host: 'server165.hosting.reg.ru',
+      user: 'u1883666_front-u',
+      password: 'aQ2eA5jE9n',
+      database: 'u1883666_chat-frontend',
       waitForConnections: true,
-      connectionLimit: 10,
+      connectionLimit: 20,
       queueLimit: 0,
     });
   }
